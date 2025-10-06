@@ -1,6 +1,6 @@
 [build]
   functions = "netlify/functions"
-  publish = "public"
+  publish = "."
 
 # -------------------------------
 # 代理计数服务 (Counter.dev)
