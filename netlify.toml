@@ -18,12 +18,12 @@
   to = "https://t.counter.dev/track"
   status = 200
   force = true
-  query = { * = "*" }
-
+  query = { "*" = "*" }
+  
 [[redirects]]
   from = "/counter/trackpage"
   to = "https://t.counter.dev/trackpage"
   status = 200
   force = true
-  query = { * = "*" }
+  query = { "*" = "*" }
 
