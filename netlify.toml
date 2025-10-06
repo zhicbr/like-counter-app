@@ -13,16 +13,17 @@
   status = 200
   force = true
 
-# 页面访问追踪（GET）
 [[redirects]]
   from = "/counter/track"
   to = "https://t.counter.dev/track"
   status = 200
   force = true
+  query = { * = "*" }
 
-# 页面浏览追踪（POST）
 [[redirects]]
   from = "/counter/trackpage"
   to = "https://t.counter.dev/trackpage"
   status = 200
   force = true
+  query = { * = "*" }
+
